@@ -4,7 +4,7 @@ A list of papers and materialies for understanding differential privacy and its 
 
 ## Introduction to Differential Privacy
 
-- [Programming Differential Privacy](https://programming-dp.com/index.html) An online text book suited to start learning the core concepts and techniques around differential privacy.
+- [Programming Differential Privacy](https://programming-dp.com/index.html) An online text book suited to learning the core concepts and theory around differential privacy. This book is from authors of CHORUS work.
 - [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021) An online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229). The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world data. Especially, they pointed out that bounding user-contributions, which is essential for computing sensitivity to adjust the amount of noise, was missing in the past studies. An assumption that every user contributes only one record is not applicable in the context of user-log analysis of the big data.
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivation behind the differential privacy. 
 - [A friendly, non-technical introduction to differential privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) (2021) A series of great blog posts that illustrate the theory and practice of differential privacy.
