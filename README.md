@@ -13,7 +13,7 @@ A list of papers and materialies for understanding differential privacy and its 
 ## Differentially Private SQL Engines
 
 - [Differentially Private SQL with Bounded User Contribution](https://arxiv.org/abs/1909.01917) (2019). Google developed a DP SQL engine that adds an appropriate amount of noise to query results by tracking user contributions through query processing. Several techniques described in this paper are apparently applied to building Google Ads Data Hub (ADH) service.
-- [CHORUS: a Programming Framework for Building Scalable Differential Privacy Mechanisms](https://ieeexplore.ieee.org/document/9230409) (Euro S&P 2020). An open-source implementation in Scala (GitHub)[https://github.com/uvm-plaid/chorus] of the DBMS-independent approach for building DP SQL engines. CHORUS rewrites SQL queries and apply noise as pre and post processes over DBMSs. 
+- [CHORUS: a Programming Framework for Building Scalable Differential Privacy Mechanisms](https://ieeexplore.ieee.org/document/9230409) (Euro S&P 2020). An [open-source implementation of DP SQL engine written in Scala](https://github.com/uvm-plaid/chorus) This work proposes a DBMS-independent approach for building DP SQL engines. CHORUS rewrites SQL queries and apply noise to the results as a post process.
 - [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) Following the same direction with CHORUS, LinkedIn implemented a DP SQL engine over their real-time SQL engine Pinot without changing the DBMS itself. It also has a privacy budget management sub-system. 
 
 ## Differential Privacy in Practice
