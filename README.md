@@ -27,3 +27,8 @@ A list of papers and materialies for understanding differential privacy (DP) and
 
 - [A list of real-world uses of differential privacy](https://desfontain.es/privacy/real-world-differential-privacy.html) (2021). How the big tech companies, including Apple, Google, Facebook (Meta), LinkedIn, Microsoft, etc., applies differential privacy. 
 
+## Open-Source Libraries
+
+- [Google Differential Privacy](https://github.com/google/differential-privacy) C++/Go/Java implementations of differential-privacy algorithms. It include code for adding Laplace/Gaussian noise, computing bounded aggregation, approximate bounding, etc.
+- [OpenDP](https://github.com/opendp/opendp) A python library collection for differential privacy. 
+
