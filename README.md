@@ -1,6 +1,6 @@
 # Readings in Differential Privacy
 
-A list of papers and materialies for understanding differential privacy and its applications to database systems. 
+A list of papers and materialies for understanding differential privacy (DP) and its applications to real-world systems. 
 
 ## Introduction to Differential Privacy
 
