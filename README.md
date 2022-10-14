@@ -24,7 +24,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 - [CHORUS: a Programming Framework for Building Scalable Differential Privacy Mechanisms](https://ieeexplore.ieee.org/document/9230409) (Euro S&P 2020). An [open-source implementation of DP SQL engine written in Scala](https://github.com/uvm-plaid/chorus). This is a DBMS-independent approach for building DP SQL engines, which rewrites SQL queries and applies noise to the results as a post process.
 - [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) Following the same direction with CHORUS, LinkedIn implemented a DP SQL engine over their real-time SQL engine Pinot without changing the DBMS itself. It also has a privacy budget management sub-system. 
 - [PrivateSQL: A Differentially Private SQL Query Engine](https://dl.acm.org/doi/10.14778/3342263.3342274) (2019) An early prototype to apply diffrential privacy to SQL processing. Although only `COUNT(*)` queries are supported, this work formalized join processing between multiple privacy tables (primary/secondary privacy relations) and developed a method to split privacy budget inside pre-defined workloads.
-- [Calibrating Noise to Sensitivity in Private Data Analysis](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/405) A proof for a mechanism adding Laplace noise scaled with (sensitivity)/ε satisfies ε-differential privacy.
+- [Calibrating Noise to Sensitivity in Private Data Analysis](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/405) (2017) A proof for a mechanism adding Laplace noise scaled with (sensitivity)/ε satisfies ε-differential privacy.
 
 ## Differential Privacy in Practice
 
