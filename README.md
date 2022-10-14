@@ -29,7 +29,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
 - _Local Differential Privacy_
   - A method applying noise to the source data.
 - _Global Differential Privacy_
-  - A merthod applying noise to the query results.
+  - A method applying noise to the query results.
 
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
