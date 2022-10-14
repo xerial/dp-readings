@@ -13,7 +13,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 ### Lecures and Tutorials
 
 - Differential Privacy in the Wild. [Part 1](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf), [Part 2](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf) (SIGMOD 2017 Tutorial)
-- [Applied Privacy for Data Science](https://opendp.github.io/cs208/spring2022/) (Harvard University, 2020) 
+- [Lecture Notes: Applied Privacy for Data Science](https://opendp.github.io/cs208/spring2022/) (Harvard University, 2020) 
 
 ## Keywords 
 
