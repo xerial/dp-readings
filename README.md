@@ -25,6 +25,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 - [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) Following the same direction with CHORUS, LinkedIn implemented a DP SQL engine over their real-time SQL engine Pinot without changing the DBMS itself. It also has a privacy budget management sub-system. 
 - [PrivateSQL: A Differentially Private SQL Query Engine](https://dl.acm.org/doi/10.14778/3342263.3342274) (2019) An early prototype to apply diffrential privacy to SQL processing. Although only `COUNT(*)` queries are supported, this work formalized join processing between multiple privacy tables (primary/secondary privacy relations) and developed a method to split privacy budget inside pre-defined workloads.
 - [Calibrating Noise to Sensitivity in Private Data Analysis](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/405) (2017) A proof for a mechanism adding Laplace noise scaled with (sensitivity)/ε satisfies ε-differential privacy.
+- [R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys](https://dl.acm.org/doi/10.1145/3514221.3517844) (SIGMOD 2022 Best Paper) Extend the application of differential privacy to more complex joins by considerfing its graph structure patterns. Note: group-by queries are not covered in this work.  
 
 ## Differential Privacy in Practice
 
@@ -38,6 +39,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 ## Security 
 
 - [Side-Channel Attacks on Query-Based Data Anonymization](https://dl.acm.org/doi/10.1145/3460120.3484751) (2021) Even if the system satisfies differential privacy, there still is a way to find personal information without reading any query results. Side-channel attacks intentinally inject query errors (division by zero, overflow, etc.) and delay of query executions that happens only for a specific condition. This paper shows such examples and provides ideas to avoid these side-channel attacks.
+- [On significance of the least significant bits for differential privacy](https://dl.acm.org/doi/10.1145/2382196.2382264) (2012) Sampling from Laplace distribution suffers from insufficient resolution of floating-poing computations and damages DP gurantees. A practical approach for this problem is rounding the result after adding noise, but it sacrifices the utility of the result. Google's open-source DP library provides an alternative [secure noise generation](https://github.com/google/differential-privacy/blob/main/common_docs/Secure_Noise_Generation.pdf) method to lower the error. This approach can be applied to both the Laplace and Gaussian noise.
 
 ## Open-Source Libraries
 
