@@ -2,6 +2,23 @@
 
 A list of papers and materialies for understanding differential privacy (DP) and its applications to real-world systems. 
 
+## Keywords 
+
+Here is a list of keywords specific to literatures in differential privacy area:
+
+- _Mechanism_
+  - A mechanism refers to a computation process (e.g., query processing) in the context of differential privacy. Differential privacy is a property of the data processing process opposed to the property of the data itself (e.g., [k-anonymity](https://programming-dp.com/notebooks/ch2.html)).
+- _Neighbour Databases_
+  - A set of all possible databases where only the records from a single individual person (privacy unit) differ.
+- _Sensitivity_
+  - A sensitivity is the amount of the output value difference of a function when records from a single person change. For example, the senstivity of `COUNT(*)` SQL query is 1 because presence or absence of a single record can change the value of `COUNT(*)` at most 1. This sensitivy is used for scaling the amount of Laplace/Gaussian noise.
+- _User Contribution_
+  - The number of records a single user provides. For example, if a single user has multiple records, say at most N, in the database, the sensitivy of `COUNT(*)` becomes N. 
+- _Local Differential Privacy_
+  - A method applying noise to the source data.
+- _Global Differential Privacy_
+  - A merthod applying noise to the query results.
+
 ## Introduction to Differential Privacy
 
 - [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and how differential privacy helps to avoid such attacks.
@@ -13,7 +30,6 @@ A list of papers and materialies for understanding differential privacy (DP) and
 ### Lecures and Tutorials
 
 - Differential Privacy in the Wild. [Part 1](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf), [Part 2](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf) (SIGMOD 2017 Tutorial)
-
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
 
