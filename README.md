@@ -71,6 +71,8 @@ Here is a list of keywords specific to literatures in the differential privacy a
 
 - [Side-Channel Attacks on Query-Based Data Anonymization](https://dl.acm.org/doi/10.1145/3460120.3484751) (2021) Even if the system satisfies differential privacy, there still is a way to find personal information without reading any query results. Side-channel attacks intentinally inject query errors (division by zero, overflow, etc.) or delays of query executions that happen when a specific condition matches. This paper shows such examples and provides ideas to avoid these side-channel attacks.
 - [On significance of the least significant bits for differential privacy](https://dl.acm.org/doi/10.1145/2382196.2382264) (2012) Sampling from Laplace distribution suffers from insufficient resolution of floating-poing computations and damages DP gurantees. A practical approach for this problem is rounding the result after adding noise, but it sacrifices the utility of the result. Google's open-source DP library provides an alternative [secure noise generation](https://github.com/google/differential-privacy/blob/main/common_docs/Secure_Noise_Generation.pdf) method to lower the error. This approach can be applied to both the Laplace and Gaussian noise.
+- [Precision-based attacks and interval refining: how to break, then fix, differential privacy on finite computers](https://arxiv.org/abs/2207.13793) 
+  - [Tiny bits matter: precision-based attacks on differential privacy](https://www.tmlt.io/research/tiny-bits-matter-precision-based-attacks-on-differential-privacy)
 
 ## Open-Source Libraries
 
