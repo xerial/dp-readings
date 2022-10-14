@@ -30,7 +30,6 @@ A list of papers and materialies for understanding differential privacy (DP) and
 ## Local Differential Privacy
 
 - [Local vs. central differential privacy](https://desfontain.es/privacy/local-global-differential-privacy.html) (2019) Explaining the differences between Local differential privacy (applying noise to the data) and Global differential privacy (applying noise to the query result). Middle-ground approaches betweem Local and Global DP have also been studied. 
-
 - [RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response](https://arxiv.org/abs/1407.6981) (2014)
 - [Prochlo: Strong Privacy for Analytics in the Crowd](https://arxiv.org/abs/1710.00901) (2017)
 - [The Privacy Blanket of the Shuffle Model](https://arxiv.org/abs/1903.02837) (2019) 
