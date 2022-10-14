@@ -4,7 +4,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 
 ## Introduction to Differential Privacy
 
-- [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and explains the motivation of differential privacy to prevent such attacks.
+- [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and how techniques of differential privacy prevent such attacks.
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivation behind the differential privacy. 
 - [Programming Differential Privacy](https://programming-dp.com/index.html) An online text book good for learning the core concepts and theory around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
 - [A friendly, non-technical introduction to differential privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) (2021) A series of blog posts that illustrate the theory and practice of differential privacy in a succinct manner.
