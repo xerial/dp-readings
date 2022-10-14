@@ -35,7 +35,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
 
-- [Differentially Private SQL with Bounded User Contribution](https://arxiv.org/abs/1909.01917) (2019). Google developed a DP SQL engine that adds an appropriate amount of noise to query results by tracking user contributions through query processing. Several techniques described in this paper are apparently applied to building the [privacy polich checks in Google Ads Data Hub (ADH)](https://developers.google.com/ads-data-hub/guides/privacy-checks) service.
+- [Differentially Private SQL with Bounded User Contribution](https://arxiv.org/abs/1909.01917) (2019). A comprehensive design and overview of Google's DP SQL engine. The privacy policy enforcment described in this paper is apparently applied to their [Google Ads Data Hub (ADH)](https://developers.google.com/ads-data-hub/guides/privacy-checks) service as well.
   - To restrict the number of maximum user-contributions to different partitions, it applies a randomized [reservoir sampling](https://dl.acm.org/doi/10.1145/3147.3165) (1985) method while scanning records from tables.  
   - The idea of thresholding groups represented by small number of people was originally proposed in [Releasing search queries and clicks privately
 ](https://dx.doi.org/10.1145/1526709.1526733) (2009)
