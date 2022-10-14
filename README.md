@@ -53,3 +53,4 @@ A list of papers and materialies for understanding differential privacy (DP) and
 - [Google: How we're helping developers with differential privacy](https://developers.googleblog.com/2021/01/how-were-helping-developers-with-differential-privacy.html)
 - [Micorosoft: AI Lab projects related to differential privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy)
 - [Tumult Labs](https://www.tmlt.io/)
+- [Amazon: Differential Privacy](https://www.amazon.science/tag/differential-privacy)
