@@ -31,9 +31,23 @@ A list of papers and materialies for understanding differential privacy (DP) and
 - [A list of real-world uses of differential privacy](https://desfontain.es/privacy/real-world-differential-privacy.html) (2021). How the big tech companies, including Apple, Google, Facebook (Meta), LinkedIn, Microsoft, etc., applies differential privacy. 
 - [Understanding Database Reconstruction Attacks on Public Data: These attacks on statistical databases are no longer a theoretical danger](https://dl.acm.org/doi/10.1145/3291276.3295691) (2018) The 2010 US Census used the notion of k-anonymity and nullified part of table cells for hiding too specific data. [Researchers simulated a database reconstruction attack (DRA) against the 2010 US Census data](https://www.census.gov/data/academy/webinars/2021/disclosure-avoidance-series/simulated-reconstruction-abetted-re-identification-attack-on-the-2010-census.html) and successfully recovered 46% of the original individual records, including the sex, age, race, ethnicity, and fine-grained geographic locations. If allowing errors within one year, it could reconstruct 71% of US population data (219 million records!).
 - [Understanding the 2020 Census Disclosure Avoidance System](https://www2.census.gov/about/training-workshops/2021/2021-07-01-das-presentation.pdf) From the learning of the 2010 US Census, the 2020 version of US Census data has applied differential privacy technology to anonymize the published statistics with noise. 
+- [Google COVID-19 Community Mobility Reports: Anonymization Process Description (version 1.1)](https://arxiv.org/abs/2004.04145) (2020) Differential privacy techniques are used for anonymyzing and analyzing contact tracing data. 
+  - A more background can be found in [Delivering a Rapid Digital Response to the COVID-19 Pandemic](https://cacm.acm.org/magazines/2022/1/257447-delivering-a-rapid-digital-response-to-the-covid-19-pandemic/abstract) (CACM 2022)
+
+
+## Security 
+
+- [Side-Channel Attacks on Query-Based Data Anonymization](https://dl.acm.org/doi/10.1145/3460120.3484751) (2021) Even if the system satisfies differential privacy, there still is a way to find personal information without reading any query results. Side-channel attacks intentinally inject query errors (division by zero, overflow, etc.) and delay of query executions that happens only for a specific condition. This paper shows such examples and provides ideas to avoid these side-channel attacks.
 
 ## Open-Source Libraries
 
 - [Google Differential Privacy](https://github.com/google/differential-privacy) C++/Go/Java implementations of differential-privacy algorithms. It include code for adding Laplace/Gaussian noise, computing bounded aggregation, approximate bounding, etc.
 - [OpenDP](https://github.com/opendp/opendp) A python library collection for differential privacy. 
 
+## Companies Adopting Differential Privacy
+
+- [Apple: Differential Privacy Overview](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf)
+  - [Learning with Privacy at Scale](https://machinelearning.apple.com/research/learning-with-privacy-at-scale) (2017)
+- [Google: How we're helping developers with differential privacy](https://developers.googleblog.com/2021/01/how-were-helping-developers-with-differential-privacy.html)
+- [Micorosoft: AI Lab projects related to differential privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy)
+- [Tumult Labs](https://www.tmlt.io/)
