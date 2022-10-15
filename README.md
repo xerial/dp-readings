@@ -90,6 +90,7 @@ Papers on differential privacy often presented in these conferences.
 ## Open-Source Libraries
 
 - [Google Differential Privacy](https://github.com/google/differential-privacy) C++/Go/Java implementations of differential-privacy algorithms. It include code for adding Laplace/Gaussian noise, computing bounded aggregation, approximate bounding, etc.
+- [OpenMined/PipelineDP](https://github.com/OpenMined/PipelineDP) A Python framework for applying differential private aggregations in Apache Spark, Apache Beam, etc.
 - [OpenDP](https://github.com/opendp/opendp) A python library collection for differential privacy. 
 - [Tumult Core](https://gitlab.com/tumult-labs/core) A collection of composable components for implementing algorithms to perform differentially private computations.
 
