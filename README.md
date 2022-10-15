@@ -73,6 +73,7 @@ Papers on differential privacy often presented in these conferences.
   - [Issues Encountered Deploying Differential Privacy](https://arxiv.org/abs/1809.02201) (2018) Describes lessons learned while introducing differential privacy to the 2020 US Census. There were many challenges unanticipated by differential privacy’s creators. For example, chosing a value of ε, explaining differntial privacy in academic languages was not acceptable to many of the data users, etc.
 - [Google COVID-19 Community Mobility Reports: Anonymization Process Description (version 1.1)](https://arxiv.org/abs/2004.04145) (2020) Differential privacy techniques are used for anonymyzing and analyzing contact tracing data. 
   - A more background can be found in [Delivering a Rapid Digital Response to the COVID-19 Pandemic](https://cacm.acm.org/magazines/2022/1/257447-delivering-a-rapid-digital-response-to-the-covid-19-pandemic/abstract) (CACM 2022)
+- [Negotiating Privacy/Utility Trade-Offs under Differential Privacy](https://www.usenix.org/conference/pepr22/presentation/miklau) (2022) The full complexity of making choices about privacy/utility trade-offs is explained in details. 
 
 
 ## Differential Privacy in Machine Learning
