@@ -39,6 +39,7 @@ Papers on differential privacy often presented in these conferences.
 - [Privacy Enhancing Technologies Symposium (PETS)](https://petsymposium.org/)
   - [Presentation videos on YouTube](https://www.youtube.com/c/PrivacyEnhancingTechnologiesSymposium/videos)
 - [TPDP - Theory and Practice of Differential Privacy](https://tpdp.journalprivacyconfidentiality.org/)
+- [PEPR - USENIX Conference on Privacy Engineering Practice and Respect](https://www.usenix.org/conferences/byname/1046)
 - Database Conferences
   - [SIGMOD](https://sigmod.org/)
   - [VLDB](https://www.vldb.org/)
