@@ -6,7 +6,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 
 - [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and how differential privacy can be used for preventing such attacks.
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivation behind the differential privacy. 
-- [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook good for learning the core concepts and theory around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
+- [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook, good for learning the core concepts and theories around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
 - [A friendly, non-technical introduction to differential privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) (2021) A series of blog posts that illustrate the theory and practice of differential privacy in a succinct manner.
 - [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021) (_A free online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229)_). The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world applications. Especially, they pointed out that bounding user-contributions, which is essential for computing sensitivity to adjust the amount of noise, was missing in the past studies.
 
@@ -34,8 +34,14 @@ Here is a list of keywords specific to literatures in the differential privacy a
 
 ## Academic Conferences
 
+Papers on differential privacy often presented in these conferences. 
+
 - [Privacy Enhancing Technologies Symposium (PETS)](https://petsymposium.org/)
   - [Presentation videos on YouTube](https://www.youtube.com/c/PrivacyEnhancingTechnologiesSymposium/videos)
+- [TPDP - Theory and Practice of Differential Privacy](https://tpdp.journalprivacyconfidentiality.org/)
+- Database Conferences
+  - [SIGMOD](https://sigmod.org/)
+  - [VLDB](https://www.vldb.org/)
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
 
@@ -54,6 +60,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
 - [Local vs. central differential privacy](https://desfontain.es/privacy/local-global-differential-privacy.html) (2019) Explaining the differences between Local differential privacy (applying noise to the data) and Global differential privacy (applying noise to the query result). Middle-ground approaches betweem Local and Global DP have also been studied. 
 - [RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response](https://arxiv.org/abs/1407.6981) (2014)
 - [Prochlo: Strong Privacy for Analytics in the Crowd](https://arxiv.org/abs/1710.00901) (2017)
+- [Collecting Telemetry Data Privately](https://www.microsoft.com/en-us/research/publication/collecting-telemetry-data-privately/) (NIPS 2017) Microsoft used local differential privacy for collecting telemetry data in Windows.
 - [The Privacy Blanket of the Shuffle Model](https://arxiv.org/abs/1903.02837) (2019) 
 
 
