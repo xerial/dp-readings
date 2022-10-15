@@ -15,7 +15,7 @@ A list of papers and materialies for understanding differential privacy (DP) and
 - Differential Privacy in the Wild. [Part 1](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf), [Part 2](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf) (SIGMOD 2017 Tutorial)
 - [Lecture Notes: Applied Privacy for Data Science](https://opendp.github.io/cs208/spring2022/) (Harvard University, 2020) 
 
-## Keywords 
+### Keywords 
 
 Here is a list of keywords specific to literatures in the differential privacy area. You need to be familiar with these keywords, because they are often used without any explanations:
 
@@ -32,6 +32,10 @@ Here is a list of keywords specific to literatures in the differential privacy a
 - _Global Differential Privacy_
   - A method applying noise to the query results.
 
+## Academic Conferences
+
+- [Privacy Enhancing Technologies Symposium (PETS)](https://petsymposium.org/)
+  - [Presentation videos on YouTube](https://www.youtube.com/c/PrivacyEnhancingTechnologiesSymposium/videos)
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
 
