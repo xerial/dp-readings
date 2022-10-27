@@ -1,13 +1,13 @@
 # Readings in Differential Privacy
 
-[Differential privacy (DP)](https://en.wikipedia.org/wiki/Differential_privacy) was invented in 2006 by C. Dwork, et al. Since then, a lot of scientific papers have been published in this area. Unfortunately, however, too many publications makes difficult for new-comers to understand its scientific terms, implicit assumptions (e.g., sensitivity, neighbour databases, user-contributions, etc.), actual pros and cons when applying DP to the real-world systems. 
+[Differential privacy (DP)](https://en.wikipedia.org/wiki/Differential_privacy) was invented in 2006 by C. Dwork, et al. Since then, a lot of scientific papers have been published in this area. Unfortunately, however, too many publications makes difficult for new-comers to understand its scientific terms (e.g., sensitivity, neighbour databases, etc.), implicit assumptions (how many user contributions in the database?), actual pros and cons when applying DP to the real-world systems. 
 
-This page provides a curated list of papers and materialies good for understanding the concept, history, and applications of differential privacy (DP). If you think some important paper is missing in the list, please submit a pull request. 
+This page provides a curated list of papers and resources essential to understanding the concept of differential privacy, its history, and applications. If you think some important paper is missing in the list, please submit a pull request. 
 
 ## Introduction to Differential Privacy
 
 - [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and how differential privacy can be used for preventing such attacks.
-- [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivation behind the differential privacy. 
+- [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivations behind the differential privacy.
 - [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook, good for learning the core concepts and theories around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
 - [A friendly, non-technical introduction to differential privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) (2021) A series of blog posts that illustrate the theory and practice of differential privacy in a succinct manner.
 - [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021) (_A free online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229)_). The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world applications. Especially, they pointed out that bounding user-contributions, which is essential for computing sensitivity to adjust the amount of noise, was missing in the past studies.
