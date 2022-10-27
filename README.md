@@ -1,6 +1,8 @@
 # Readings in Differential Privacy
 
-A list of papers and materialies for understanding differential privacy (DP) and its applications to real-world systems. 
+[Differential privacy (DP)](https://en.wikipedia.org/wiki/Differential_privacy) was invented in 2006 by C. Dwork, et al. Since then, a lot of scientific papers have been published in this area. Unfortunately, however, too many publications makes difficult for new-comers to understand its scientific terms, implicit assumptions (e.g., sensitivity, neighbour databases, user-contributions, etc.), actual pros and cons when applying DP to the real-world systems. 
+
+This page provides a curated list of papers and materialies good for understanding the concept, history, and applications of differential privacy (DP). If you think some important paper is missing in the list, please submit a pull request. 
 
 ## Introduction to Differential Privacy
 
