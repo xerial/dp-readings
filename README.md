@@ -26,7 +26,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
 - _Sensitivity_
   - A sensitivity is the amount of the output value difference of a function when records from a single person change. For example, the senstivity of `COUNT(*)` SQL query is 1 because presence or absence of a single record can change the value of `COUNT(*)` at most 1. This sensitivy is used for scaling the amount of Laplace/Gaussian noise.
 - _User Contribution_
-  - The number of records a single user provides. For example, if a single user has multiple records, say at most N, in the database, the sensitivy of `COUNT(*)` becomes N. 
+  - The number of records a single user provides. For example, if a single user has multiple records in the database, say at most N, the sensitivy of `COUNT(*)` becomes N. 
 - _Local Differential Privacy_
   - A method applying noise to the source data.
 - _Global Differential Privacy_
