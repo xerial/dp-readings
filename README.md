@@ -46,8 +46,8 @@ Papers on differential privacy often presented in these conferences.
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
 
-- [Differentially Private SQL with Bounded User Contribution](https://arxiv.org/abs/1909.01917) (2019). A comprehensive design and overview of Google's DP SQL engine. The privacy policy enforcment described in this paper is apparently applied to their [Google Ads Data Hub (ADH)](https://developers.google.com/ads-data-hub/guides/privacy-checks) service as well.
-  - To restrict the number of maximum user-contributions to different partitions, it applies a randomized [reservoir sampling](https://dl.acm.org/doi/10.1145/3147.3165) (1985) method while scanning records from tables.  
+- [Differentially Private SQL with Bounded User Contribution](https://arxiv.org/abs/1909.01917) (2019). A comprehensive design and overview of Google's DP SQL engine, which takes into account the user-level differential privacy. The privacy policy enforcment scheme described in this paper is partially applied to their [Google Ads Data Hub (ADH)](https://developers.google.com/ads-data-hub/guides/privacy-checks) service too.
+  - For managing the number of maximum user-contributions to different partitions, it applies a randomized [reservoir sampling](https://dl.acm.org/doi/10.1145/3147.3165) (1985) method while scanning records from tables.  
   - The idea of thresholding groups represented by small number of people was originally proposed in [Releasing search queries and clicks privately
 ](https://dx.doi.org/10.1145/1526709.1526733) (2009)
 - [CHORUS: a Programming Framework for Building Scalable Differential Privacy Mechanisms](https://ieeexplore.ieee.org/document/9230409) (Euro S&P 2020). An [open-source implementation of DP SQL engine written in Scala](https://github.com/uvm-plaid/chorus). This is a DBMS-independent approach for building DP SQL engines, which rewrites SQL queries and applies noise to the results as a post process.
