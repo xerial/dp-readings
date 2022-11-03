@@ -110,5 +110,6 @@ Papers on differential privacy often presented in these conferences.
 - [Google: How we're helping developers with differential privacy](https://developers.googleblog.com/2021/01/how-were-helping-developers-with-differential-privacy.html)
   - For example, Google Map uses DP algorithms for sharing histograms of vistors to restaurants. 
 - [Micorosoft: AI Lab projects related to differential privacy](https://www.microsoft.com/en-us/ai/ai-lab-differential-privacy)
+- LinkedIn [A Members First Approach to Enabling LinkedIn's Labor Market Insights at Scale](https://arxiv.org/abs/2010.13981) (2020)
 - [Tumult Labs](https://www.tmlt.io/)
 - [Amazon: Differential Privacy](https://www.amazon.science/tag/differential-privacy)
