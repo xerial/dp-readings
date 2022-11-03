@@ -53,10 +53,16 @@ Papers on differential privacy often presented in these conferences.
   - The idea of aggrgation thresholding was originally proposed in [Releasing search queries and clicks privately
 ](https://dx.doi.org/10.1145/1526709.1526733) (2009)
 - [CHORUS: a Programming Framework for Building Scalable Differential Privacy Mechanisms](https://ieeexplore.ieee.org/document/9230409) (Euro S&P 2020). An [open-source implementation of DP SQL engine written in Scala](https://github.com/uvm-plaid/chorus). A DBMS-independent approach for building DP SQL engines, which rewrites SQL queries and applies noise to the query results as a post process.
-- [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) Following the same direction with CHORUS, LinkedIn implemented a DP SQL engine over their real-time SQL engine Pinot without changing the DBMS itself. It also has a privacy budget management sub-system. 
 - [PrivateSQL: A Differentially Private SQL Query Engine](https://dl.acm.org/doi/10.14778/3342263.3342274) (2019) An early prototype of a diffrentially private SQL engine, which utilizes differential-private views (called private synopsys) extracted from a pre-defined workload. In this papar, only `COUNT(*)` queries is supported, but extending this approache to other types of SQL operators should be possible.
 - [Calibrating Noise to Sensitivity in Private Data Analysis](https://journalprivacyconfidentiality.org/index.php/jpc/article/view/405) (2017) A proof for a mechanism that adds Laplace noise scaled with (sensitivity)/ε satisfies ε-differential privacy.
 - [R2T: Instance-optimal Truncation for Differentially Private Query Evaluation with Foreign Keys](https://dl.acm.org/doi/10.1145/3514221.3517844) (SIGMOD 2022 Best Paper) Extending the application of differential privacy to more complex joins by considerfing join-graph structure patterns. Note: group-by aggregations are not covered in this work.  
+
+## Privacy Budget Management
+
+- [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) LinkedIn implemented a DP SQL engine over their real-time SQL engine Pinot without changing the DBMS itself. It also has a privacy budget management sub-system. 
+- [Visualizing Privacy-Utility Trade-Offs in Differentially Private Data Releases](https://arxiv.org/abs/2201.05964) (2022) Visualizing privacy and utility tradeoffs. The authors also published a [blog post](https://medium.com/multiple-views-visualization-research-explained/visualizing-the-accuracy-privacy-trade-off-to-improve-budget-decisions-with-differential-privacy-66fc3efb34a) about this work. ![image](https://user-images.githubusercontent.com/57538/199791892-a29f65d6-245e-4618-803d-172c8f2acdb0.png)
+- [Negotiating Privacy/Utility Trade-Offs under Differential Privacy](https://www.usenix.org/conference/pepr22/presentation/miklau) (2022) It explains the complexity of making choices about privacy/utility trade-offs in details.
+
 
 ## Local Differential Privacy
 
@@ -75,7 +81,6 @@ Papers on differential privacy often presented in these conferences.
   - [Issues Encountered Deploying Differential Privacy](https://arxiv.org/abs/1809.02201) (2018) Describes lessons learned while introducing differential privacy to the 2020 US Census. There were many challenges unanticipated by differential privacy’s creators. For example, chosing a value of ε can be a political problem. And also, explaining differntial privacy in academic languages was not acceptable to many of the data users, etc.
 - [Google COVID-19 Community Mobility Reports: Anonymization Process Description (version 1.1)](https://arxiv.org/abs/2004.04145) (2020) Differential privacy techniques are used for anonymyzing and analyzing contact tracing data. 
   - A more background can be found in [Delivering a Rapid Digital Response to the COVID-19 Pandemic](https://cacm.acm.org/magazines/2022/1/257447-delivering-a-rapid-digital-response-to-the-covid-19-pandemic/abstract) (CACM 2022)
-- [Negotiating Privacy/Utility Trade-Offs under Differential Privacy](https://www.usenix.org/conference/pepr22/presentation/miklau) (2022) It explains the complexity of making choices about privacy/utility trade-offs in details.
 
 
 ## Differential Privacy in Machine Learning
