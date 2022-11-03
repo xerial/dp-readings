@@ -59,7 +59,7 @@ Papers on differential privacy often presented in these conferences.
 
 ## Privacy Budget Management
 
-- [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) LinkedIn implemented a DP SQL engine over their real-time SQL engine Pinot without changing the DBMS itself. It also has a privacy budget management sub-system. 
+- [LinkedIn's Audience Engagements API: A Privacy Preserving Data Analytics System at Scale](https://arxiv.org/abs/2002.05839) (2020) LinkedIn implemented a DP SQL engine and privacy budget management system over their real-time SQL engine Pinot without changing the internals of the DBMS. This paper discusses on what situations using higher privacy budget is acceptable.
 - [Visualizing Privacy-Utility Trade-Offs in Differentially Private Data Releases](https://arxiv.org/abs/2201.05964) (2022) Visualizing privacy and utility tradeoffs. The authors also published a [blog post](https://medium.com/multiple-views-visualization-research-explained/visualizing-the-accuracy-privacy-trade-off-to-improve-budget-decisions-with-differential-privacy-66fc3efb34a) about this work. ![image](https://user-images.githubusercontent.com/57538/199791892-a29f65d6-245e-4618-803d-172c8f2acdb0.png)
 - [Negotiating Privacy/Utility Trade-Offs under Differential Privacy](https://www.usenix.org/conference/pepr22/presentation/miklau) (2022) It explains the complexity of making choices about privacy/utility trade-offs in details.
 
