@@ -7,9 +7,9 @@ This page provides a curated list of papers and resources essential to understan
 ## Introduction to Differential Privacy
 
 - [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and how differential privacy can prevent them.
-- [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivations behind the differential privacy without using too much mathmatics.
-- [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook, good for learning the core concepts and theories around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
 - [A friendly, non-technical introduction to differential privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) (2021) A series of blog posts that illustrate the theory and practice of differential privacy.
+- [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook, good for learning the core concepts and theories around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
+- [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivations behind the differential privacy without using too much mathmatics.
 - [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021) (_A free online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229)_). The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world applications. Especially, they pointed out that bounding user-contributions, which is essential for properly computing sensitivity, was missing in the past studies.
 
 ### Lecures and Tutorials
