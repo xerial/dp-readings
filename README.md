@@ -22,7 +22,7 @@ This page provides a curated list of papers and resources essential to understan
 Here is a list of keywords specific to literatures in the differential privacy area. You need to be familiar with these keywords, because they are often used without any explanations:
 
 - _Mechanism_
-  - A mechanism refers to a computation process (e.g., query processing) in the context of differential privacy. Differential privacy is a property of the data processing process (mechanism), which usually applyies noise to the result, as opposed to the property of the data itself (e.g., [k-anonymity](https://programming-dp.com/notebooks/ch2.html) is a property of the data).
+  - A mechanism refers to a computation process (e.g., query processing) in the context of differential privacy. Differential privacy is a property of the data processing process (mechanism), which usually applies noise to the result, as opposed to the property of the data itself (e.g., [k-anonymity](https://programming-dp.com/notebooks/ch2.html) is a property of the data).
 - _Neighbour Databases_
   - A set of all possible databases where only the records from a single individual person (privacy unit) differ. Differential privacy protectes the privacy of indivdiaul userr by producing almost the same query results regardless the presence or absence of individual users in the database. Considering all neighbour databases is the core concept of differential privacy.
 - _Sensitivity_
