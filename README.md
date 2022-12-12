@@ -12,7 +12,7 @@ This page provides a curated list of papers and resources essential to understan
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivations behind the differential privacy without using too much mathmatics.
 - [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021) (_A free online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229)_). The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world applications. Especially, they pointed out that bounding user-contributions, which is essential for properly computing sensitivity, was missing in the past studies.
 
-### Lecures and Tutorials
+### Lectures and Tutorials
 
 - Differential Privacy in the Wild. [Part 1](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf), [Part 2](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf) (SIGMOD 2017 Tutorial)
 - [Lecture Notes: Applied Privacy for Data Science](https://opendp.github.io/cs208/spring2022/) (Harvard University, 2020) 
