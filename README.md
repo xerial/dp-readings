@@ -101,7 +101,7 @@ Papers on differential privacy often presented in these conferences.
 - [OpenMined/PipelineDP](https://github.com/OpenMined/PipelineDP) A Python framework for applying differential private aggregations in Apache Spark, Apache Beam, etc.
 - [OpenDP](https://github.com/opendp/opendp) A python library collection for differential privacy. 
 - [Tumult Core](https://gitlab.com/tumult-labs/core) A collection of composable components for implementing algorithms to perform differentially private computations. This library is used for building DP-data processing engine on top of PySpark [timult-analytics](https://gitlab.com/tumult-labs/analytics).
-- [Zeta SQL - anonymization_rewriter.cc](https://github.com/google/zetasql/blob/master/zetasql/analyzer/anonymization_rewriter.cc) An implementation of query rewriter for transforming aggregation queries into anonymized ones with clipping, noise, and thresholding.
+- [Zeta SQL - anonymization_rewriter.cc](https://github.com/google/zetasql/blob/master/zetasql/analyzer/anonymization_rewriter.cc) An implementation of query rewriter for transforming aggregation queries into anonymized ones with clipping, adding noise, and thresholding.
 - [IBM/Diffprivlib](https://github.com/IBM/differential-privacy-library) Diffprivlib is a general-purpose Python library for experimenting with, investigating and developing applications in, differential privacy.
 
 
