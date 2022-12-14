@@ -103,6 +103,7 @@ Papers on differential privacy often presented in these conferences.
 - [Tumult Core](https://gitlab.com/tumult-labs/core) A collection of composable components for implementing algorithms to perform differentially private computations. This library is used for building DP-data processing engine on top of PySpark [timult-analytics](https://gitlab.com/tumult-labs/analytics).
 - [Zeta SQL - anonymization_rewriter.cc](https://github.com/google/zetasql/blob/master/zetasql/analyzer/anonymization_rewriter.cc) An implementation of query rewriter for transforming aggregation queries into anonymized ones with clipping, adding noise, and thresholding.
 - [IBM/Diffprivlib](https://github.com/IBM/differential-privacy-library) Diffprivlib is a general-purpose Python library for experimenting with, investigating and developing applications in, differential privacy.
+- [microsoft/synthetic-data-showcase](https://github.com/microsoft/synthetic-data-showcase) Generates synthetic data and user interfaces for privacy-preserving data sharing and analysis.
 
 
 
