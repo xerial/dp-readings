@@ -26,7 +26,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
 - _Neighbour Databases_
   - A set of all possible databases where only the records from a single individual person (privacy unit) differ. Differential privacy protectes the privacy of indivdiaul userr by producing almost the same query results regardless the presence or absence of individual users in the database. Considering all neighbour databases is the core concept of differential privacy.
 - _Sensitivity_
-  - A sensitivity is the amount of the output value difference of a function when records from a single person change. For example, the senstivity of `COUNT(*)` SQL query is 1 because presence or absence of a single record can change the value of `COUNT(*)` at most 1. This sensitivy is used for scaling the amount of Laplace/Gaussian noise.
+  - A sensitivity is the amount of the output value difference of a function when records from a single person change. For example, when a table contains at most one record per user, the senstivity of `COUNT(*)` SQL query becomes 1 because presence or absence of a single user record can change the value of `COUNT(*)` at most 1. This sensitivy is used for scaling the amount of Laplace/Gaussian noise.
 - _User Contribution_
   - The number of records a single user provides. For example, if a single user has multiple records in the database, say at most N, the sensitivy of `COUNT(*)` becomes N. 
 - _Local Differential Privacy_
