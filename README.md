@@ -73,6 +73,10 @@ Papers on differential privacy often presented in these conferences.
 - [Collecting Telemetry Data Privately](https://www.microsoft.com/en-us/research/publication/collecting-telemetry-data-privately/) (NIPS 2017) Microsoft used local differential privacy for collecting telemetry data in Windows.
 - [The Privacy Blanket of the Shuffle Model](https://arxiv.org/abs/1903.02837) (2019) 
 
+## Synthetic Data Generation
+
+- [Differentially Private Marginals](https://github.com/microsoft/synthetic-data-showcase/blob/main/docs/dp/dp_marginals.pdf) (2022) A differentially private algoritm to output approximate k-way marginals of tabular data. This method is used for [Synthetic Data Showcase](https://github.com/microsoft/synthetic-data-showcase) project.
+- [PrivBayes](https://dl.acm.org/doi/10.1145/3134428) (2017) A method for privacy-preserving data publishing that satisfies a DP guarantee.
 
 ## Differential Privacy in Practice
 
