@@ -31,7 +31,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
   - The number of records a single user provides. For example, if a single user has multiple records in the database, say at most N, the sensitivy of `COUNT(*)` becomes N. 
 - _Local Differential Privacy_
   - A method applying noise to the source data.
-- _Global Differential Privacy_
+- _Global (or Central) Differential Privacy_
   - A method applying noise to the query results. This is also called central differential privacy.
 
 ## Academic Conferences
