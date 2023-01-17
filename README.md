@@ -34,6 +34,10 @@ Here is a list of keywords specific to literatures in the differential privacy a
 - _Global (or Central) Differential Privacy_
   - A method applying noise to the query results. This is also called central differential privacy.
 
+![image](https://user-images.githubusercontent.com/57538/213010982-3426bb08-f0cd-4739-9051-74537ad9c662.png)
+(An image from [A SURVEY OF DIFFERENTIAL PRIVACY FRAMEWORKS
+](https://blog.openmined.org/a-survey-of-differential-privacy-frameworks/))
+
 ## Academic Conferences
 
 Papers on differential privacy often presented in these conferences. 
