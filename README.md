@@ -79,9 +79,10 @@ Papers on differential privacy often presented in these conferences.
 
 ## Synthetic Data Generation
 
-- [Differentially Private Marginals](https://github.com/microsoft/synthetic-data-showcase/blob/main/docs/dp/dp_marginals.pdf) (2022) A differentially private algoritm to output approximate k-way marginals of tabular data. This method is used for [Synthetic Data Showcase](https://github.com/microsoft/synthetic-data-showcase) project.
 - [PrivBayes: Private Data Release via Bayesian Networks](https://dl.acm.org/doi/10.1145/3134428) (2017) A method for privacy-preserving data publishing that satisfies a DP guarantee.
 - [Benchmarking Differentially Private Synthetic Data Generation Algorithms](https://arxiv.org/abs/2112.09238) (2022) Evaluating the utility of synthetic data generators. 
+- [Winning the NIST Contest: A scalable and general approach to differentially private synthetic data](https://arxiv.org/abs/2108.04978) (2021) The marginal-based synthetic data generator, which marked the best score in the above benchmark paper. 
+- [Differentially Private Marginals](https://github.com/microsoft/synthetic-data-showcase/blob/main/docs/dp/dp_marginals.pdf) (2022) A differentially private algoritm to output approximate k-way marginals of tabular data. This method is used for [Synthetic Data Showcase](https://github.com/microsoft/synthetic-data-showcase) project.
 
 ## Differential Privacy in Practice
 
