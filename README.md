@@ -8,9 +8,9 @@ This page provides a curated list of papers and resources essential to understan
 
 - [Protecting Privacy with MATH (Collab with the US Census Bereau)](https://www.youtube.com/watch?v=pT19VwBAqKA) A very illustrative 12-minute video that shows how the database reconstruction attack (DRA) works and how differential privacy can prevent them.
 - [A friendly, non-technical introduction to differential privacy](https://desfontain.es/privacy/friendly-intro-to-differential-privacy.html) (2021) A series of blog posts that illustrate the theory and practice of differential privacy.
-- [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook, good for learning the core concepts and theories around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
+- [Programming Differential Privacy](https://programming-dp.com/index.html) A short-online textbook, good for learning core concepts and theories around differential privacy. This book is from one of the authors of the CHORUS DP SQL engine work.
 - [Differential Privacy: A Primer for a Non-Technical Audience](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3338027) (2019) A good introduction for understanding the overall concepts and motivations behind the differential privacy without using too much mathmatics.
-- [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021) (_A free online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229)_). The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world applications. Especially, they pointed out that bounding user-contributions, which is essential for properly computing sensitivity, was missing in the past studies.
+- [Differential Privacy: The Pursuite of Protections by Default](https://dl.acm.org/doi/abs/10.1145/3434228). (2021)  The authors of Google's DP SQL engine shared their learnings when applying differential privacy to the real world applications. Especially, they pointed out that bounding user-contributions, which is essential for properly computing sensitivity, was missing in the past studies. (_A free online version of the article is also available at [acmqueue](https://queue.acm.org/detail.cfm?id=3439229)_).
 
 ### Lectures and Tutorials
 
@@ -22,20 +22,20 @@ This page provides a curated list of papers and resources essential to understan
 Here is a list of keywords specific to literatures in the differential privacy area. You need to be familiar with these keywords, because they are often used without any explanations:
 
 - _Mechanism_
-  - A mechanism refers to a computation process (e.g., query processing) in the context of differential privacy. Differential privacy is a property of the data processing process (mechanism), which usually applies noise to the result, as opposed to the property of the data itself (e.g., [k-anonymity](https://programming-dp.com/notebooks/ch2.html) is a property of the data).
+  - A mechanism refers to a computation process (e.g., query processing) in the context of differential privacy. Differential privacy is a property of the data processing process (i.e., mechanism), which usually applies noise to the result, as opposed to the property of the data itself (e.g., [k-anonymity](https://programming-dp.com/notebooks/ch2.html) is a property of the data).
 - _Neighbour Databases_
   - A set of all possible databases where only the records from a single individual person (privacy unit) differ. Differential privacy protectes the privacy of indivdiaul userr by producing almost the same query results regardless the presence or absence of individual users in the database. Considering all neighbour databases is the core concept of differential privacy.
 - _Sensitivity_
   - A sensitivity is the amount of the output value difference of a function when records from a single person change. For example, when a table contains at most one record per user, the senstivity of `COUNT(*)` SQL query becomes 1 because presence or absence of a single user record can change the value of `COUNT(*)` at most 1. This sensitivy is used for scaling the amount of Laplace/Gaussian noise.
 - _User Contribution_
-  - The number of records a single user provides. For example, if a single user has multiple records in the database, say at most N, the sensitivy of `COUNT(*)` becomes N. 
+  - The number of records a single user provides. For example, if a single user can have at most N records in the database, the sensitivy of `COUNT(*)` becomes N. 
 - _Local Differential Privacy_
   - A method applying noise to the source data.
 - _Global (or Central) Differential Privacy_
   - A method applying noise to the query results. This is also called central differential privacy.
 
 ![image](https://user-images.githubusercontent.com/57538/213010982-3426bb08-f0cd-4739-9051-74537ad9c662.png)
-(An image from [A SURVEY OF DIFFERENTIAL PRIVACY FRAMEWORKS
+(Differences of local/global differential privacy. Reference: [A SURVEY OF DIFFERENTIAL PRIVACY FRAMEWORKS
 ](https://blog.openmined.org/a-survey-of-differential-privacy-frameworks/))
 
 ## Academic Conferences
