@@ -17,6 +17,10 @@ This page provides a curated list of papers and resources essential to understan
 - Differential Privacy in the Wild. [Part 1](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-1.pdf), [Part 2](http://sigmod2017.org/wp-content/uploads/2017/03/04-Differential-Privacy-in-the-wild-2.pdf) (SIGMOD 2017 Tutorial)
 - [Lecture Notes: Applied Privacy for Data Science](https://opendp.github.io/cs208/spring2022/) (Harvard University, 2020) 
 
+### Survey Papers
+
+- [Challenges towards the Next Frontier in Privacy](https://arxiv.org/abs/2304.06929) (2023) This summary paper provides a standing reference for algorithmic/design decisions that are taken in the space of privacy, and guidance on future research directions. The document covers a broad array of topics, from infrastructure needs for designing private systems, to achieving better privacy/utility trade-offs, to conveying privacy guarantees to a broad audience, etc.
+
 ### Keywords 
 
 Here is a list of keywords specific to literatures in the differential privacy area. You need to be familiar with these keywords, because they are often used without any explanations:
