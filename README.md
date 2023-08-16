@@ -50,6 +50,7 @@ Papers on differential privacy often presented in these conferences.
   - [Presentation videos on YouTube](https://www.youtube.com/c/PrivacyEnhancingTechnologiesSymposium/videos)
 - [TPDP - Theory and Practice of Differential Privacy](https://tpdp.journalprivacyconfidentiality.org/)
 - [PEPR - USENIX Conference on Privacy Engineering Practice and Respect](https://www.usenix.org/conferences/byname/1046)
+  - [PEPR '23](https://www.usenix.org/conference/pepr23/program)
 - Database Conferences
   - [SIGMOD](https://sigmod.org/)
   - [VLDB](https://www.vldb.org/)
