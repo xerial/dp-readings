@@ -156,3 +156,4 @@ Variants of differential privacy are crucial in the ML context, such as k-fold i
 - LinkedIn [A Members First Approach to Enabling LinkedIn's Labor Market Insights at Scale](https://arxiv.org/abs/2010.13981) (2020)
 - [Tumult Labs](https://www.tmlt.io/)
 - [Amazon: Differential Privacy](https://www.amazon.science/tag/differential-privacy)
+- [Treasure Data: Secure Exchange SQL - Building A Privacy-Preserving Data Clean Room Over Trino](https://speakerdeck.com/xerial/secure-exchange-sql-building-a-privacy-preserving-data-clean-room-over-trino-trino-summit-2023)
