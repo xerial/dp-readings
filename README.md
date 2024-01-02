@@ -44,7 +44,7 @@ Here is a list of keywords specific to literatures in the differential privacy a
 
 ## Academic Conferences
 
-Papers on differential privacy often presented in these conferences. 
+Papers on differential privacy are often presented in these conferences:
 
 - [Privacy Enhancing Technologies Symposium (PETS)](https://petsymposium.org/)
   - [Presentation videos on YouTube](https://www.youtube.com/c/PrivacyEnhancingTechnologiesSymposium/videos)
@@ -54,6 +54,8 @@ Papers on differential privacy often presented in these conferences.
 - Database Conferences
   - [SIGMOD](https://sigmod.org/)
   - [VLDB](https://www.vldb.org/)
+
+You can also explore recent significant research findings at [DifferentialPrivacy.org](https://differentialprivacy.org/).
 
 ## Differentially Private SQL Engines (Global Differential Privacy)
 
