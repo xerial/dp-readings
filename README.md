@@ -113,10 +113,12 @@ When extending a function to vector-valued functions, it's necessary to also ext
 - L2 sensitivity (Gaussian noise): This is the maximum of the L2 norm, which is proportional to sqrt(k).
 Generally, when k>=70, L2 becomes more effective than L1.
 
-More detailed studies and literatures in ML are discussed in:
+More detailed studies and literature in ML are discussed in:
 - [Differentially Private Machine Learning: Theory, Algorithms, and Applications](https://www.ece.rutgers.edu/~asarwate/nips2017/) (NIPS 2017 Tutorial)
 
-- [Deep Learning with Differential Privacy (SIGSAC 2016)](https://arxiv.org/abs/1607.00133) A differentially-private Stochastic Gradient Descent (SGD) algorithm, which is now commonly used in practice.
+### DP ML Algorithms
+
+- [Deep Learning with Differential Privacy (SIGSAC 2016)](https://arxiv.org/abs/1607.00133) A differentially private Stochastic Gradient Descent (SGD) algorithm, which is now commonly used in practice.
 
 ## Variants of Differential Privacy
 
@@ -125,6 +127,10 @@ Variants of differential privacy are crucial in the ML context, such as k-fold i
 - _Rényi Divergence_ uses [Kullback–Leibler divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) (logarithmic difference between two probabilistic distributions) <= epsilon. This is mostly used with Gaussian mechanism to lower the privacy cost. This method is used for a differentially private version of TensorFlow https://github.com/tensorflow/privacy
 - [Concentrated Differential Privacy: Simplifications, Extensions, and Lower Bounds](https://arxiv.org/abs/1605.02065) The zero-concentrated differential privacy (zCDP) is similar to Rényi Divergence, but uses a single parameter rho ρ. This method is used in the 2020 US Census.
 
+
+## Auditing DP Mechanisms
+
+- [Privacy Auditing with One (1) Training Run (NeurIPS 2023 Outstanding Paper)](https://arxiv.org/abs/2305.08846) An algorithm for auditing differentially private machine learning systems, such as [DP-SGD](https://arxiv.org/abs/1607.00133), with a single training run.
 
 ## Security 
 
