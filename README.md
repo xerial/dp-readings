@@ -116,6 +116,8 @@ Generally, when k>=70, L2 becomes more effective than L1.
 More detailed studies and literatures in ML are discussed in:
 - [Differentially Private Machine Learning: Theory, Algorithms, and Applications](https://www.ece.rutgers.edu/~asarwate/nips2017/) (NIPS 2017 Tutorial)
 
+- [Deep Learning with Differential Privacy (SIGSAC 2016)](https://arxiv.org/abs/1607.00133) A differentially-private Stochastic Gradient Descent (SGD) algorithm, which is now commonly used in practice.
+
 ## Variants of Differential Privacy
 
 Variants of differential privacy are crucial in the ML context, such as k-fold iterative analysis. For instance, clustering algorithms use the same dataset multiple times, along with previously computed results like centroids.
